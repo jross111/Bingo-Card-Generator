@@ -2,4 +2,65 @@
 
 .App {
   text-align: center;
+  justify-content: center;
+
+  /* bring your own prefixes */
+
 }
+
+body {
+  font: 2em "Century Gothic", Futura, sans-serif;
+  margin: 2em;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+  height: 1.5em;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 1.5em;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+
+  position: fixed; 
+  /* transform: translate(-50%, -50%) ; */
+  display: grid;
+  grid-gap: 5px;
+  box-sizing: border-box;
+
+}
+
+.game-info {
+  margin-left: 20px;
+}
+

@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
-import { GameName } from './GameName';
-
+import { Game } from './Game';
+// import { Game } from 'components/Game.js';
 
 function App() {
   return (
     <div className="App">
-    <GameName />
-      
+    <Game />
     </div>
   );
 }
-
-
 
 export default App;
 
