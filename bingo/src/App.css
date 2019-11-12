@@ -52,8 +52,9 @@ ol, ul {
 
 .game {
 
-  position: fixed; 
-  /* transform: translate(-50%, -50%) ; */
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
   display: grid;
   grid-gap: 5px;
   box-sizing: border-box;
@@ -67,6 +68,7 @@ ol, ul {
 
 
 .wrapper {
+  background-color: grey;
   justify-content: center;
   display: inline-grid;
   grid-template-columns: 100px 100px 100px 100px 100px;
@@ -89,4 +91,12 @@ ol, ul {
   grid-row-start: 1;
   grid-row-end: 1;
   border: 5px solid black;
+  background-color: white;
 }
+
+/* .board {
+  justify-content: center;
+  height: 100px;
+  max-width: 600px;
+  background-color: grey;
+} */
