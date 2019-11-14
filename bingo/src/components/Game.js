@@ -3,8 +3,8 @@ import { Board } from "./Board";
 
 
 
-export class Game extends React.Component {
-  render() {
+export function Game(){
+
     return (
       <div className="board">
         <div className="game">
@@ -19,5 +19,6 @@ export class Game extends React.Component {
       </div>
     );
 
-  }
+  
 }
+ 
