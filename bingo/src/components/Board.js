@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Square } from './Square';
 
 
 export function Board() {
 
-    function renderSquare(i){
+    const [values, setValues] = useState([
+        {text: "hi"},
+        {text: "bye"},
+        {text: "oh"}
+    ]);
+
+    
+    
+    
+    const renderSquare = ({i}) => {
         return <Square className="item" number={i} />;
     }
+
+
 
     const gameName = "Bingo"
     return (
